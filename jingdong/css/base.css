@@ -1,0 +1,458 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体", serif;
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w { /*版心 提取 */
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+/*头部快捷导航开始*/
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+
+.shortcut .dt, .fore {
+    position: relative;
+    padding: 0 20px 0 10px;
+}
+
+.shortcut .dt i, .fore i {
+    font: 400 15px/15px "宋体";
+    position: absolute;
+    top: 12px;
+    right: 3px;
+    height: 7px;
+    width: 15px;
+    overflow: hidden;
+}
+
+.dt s, .fore s {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+
+.fr ul li {
+    float: left;
+}
+
+.fr ul li.line {
+    width: 1px;
+    height: 10px;
+    margin: 10px 5px;
+    background-color: #ddd;
+}
+
+.tel-jd {
+    padding: 0 20px 0 25px;
+}
+
+.tel {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 15px;
+    height: 20px;
+    background: url(../images/sprite.png) no-repeat;
+}
+
+/*头部banner开始*/
+.topbanner {
+    background-color: #8A25C6;
+}
+
+.topbanner .w {
+    position: relative;
+}
+
+.close-banner {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/close.png) no-repeat;
+}
+
+.close-banner:hover {
+    background-position: 0 bottom;
+}
+
+/*头部logo/search/car开始*/
+.logo {
+    float: left;
+    width: 360px;
+    height: 75px;
+    padding-top: 25px;
+    background: url(../images/logo.png) no-repeat 0 25px;
+    position: relative;
+}
+
+.logo .jd-index {
+    display: block;
+    width: 360px;
+    height: 75px;
+    text-indent: -2000px;
+}
+
+.logo .dong {
+    position: absolute;
+    top: 10px;
+    left: 168px;
+}
+
+.search {
+    float: left;
+    width: 538px;
+    height: 40px;
+    padding-top: 25px;
+}
+
+.search input {
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    padding-left: 4px;
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 36px;
+    background-color: #B61D1D;
+    font: 16px/36px "microsoft yahei";
+    color: #fff;
+    cursor: pointer; /* 鼠标变成小手*/
+}
+
+.car {
+    float: right;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    margin: 25px 65px 0 0;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    padding-left: 43px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 16px;
+    height: 13px;
+    background: url(../images/sprite.png) no-repeat -1px -59px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font: 400 13px/13px 宋体;
+}
+
+.icon3 {
+    position: absolute;
+    right: 20px;
+    width: 16px;
+    height: 14px;
+    font: 400 13px/13px 宋体;
+    top: -5px;
+    background-color: #C81623;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+    text-align: center;
+}
+
+.hotwords {
+    float: left;
+    width: 500px;
+    padding: 7px 0;
+}
+
+.hotwords a {
+    margin-right: 6px;
+
+}
+
+/*头部logo/search/car结束*/
+
+/*头部nav开始*/
+
+.nav{
+    height: 44px;
+    border-bottom:2px solid #B1191A;
+}
+
+.drop-down{
+    width: 210px;
+    height: 44px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    overflow: visible;
+}
+
+.drop-down .dt{
+    width: 210px;
+    height: 44px;
+    background-color: #B1191A;
+}
+
+.drop-down .dt a{
+    display: block;
+    height: 44px;
+    width: 210px;
+    font: 400 15px/44px "micorsoft yahei";
+    color: white;
+    padding-left: 10px;
+}
+
+.drop-down .dd{
+    height: 465px;
+    background-color: #C81623;
+}
+
+.nav-items{
+    width: 680px;
+    height: 44px;
+    float: left;
+}
+
+.nav-items li{
+    float: left;
+}
+
+.nav-items li.new{
+    background: url(../images/new.jpg) no-repeat top right;
+}
+
+.nav-items li a{
+    display: block;
+    height: 44px;
+    padding: 0 20px;
+    font:400 15px/44px "micorsoft yehei";
+    color: #333;
+}
+
+.nav-items li a:hover{
+    color: #C81623;
+}
+
+.bike{
+    width: 200px;
+    height: 44px;
+    float: right;
+}
+
+.bike a{
+    display: block;
+    width:200px;
+    cursor: pointer;
+}
+
+/*头部nav结束*/
+
+.body{
+    height: 500px;
+}
+
+/*底部footer开始*/
+.service {
+
+}
+
+.slogen {
+    padding-top: 24px;
+    position: relative;
+    height: 76px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.slogen .item {
+    float: left;
+    position: absolute;
+    left: 50%;
+    width: 302px;
+}
+
+.slogen1 {
+    margin-left: -604px;
+}
+
+.slogen2 {
+    margin-left: -302px;
+}
+
+.slogen3 {
+    margin-left: 2px;
+}
+
+.slogen4 {
+    margin-left: 302px;
+}
+
+.help {
+    padding-top: 20px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.service dl {
+    float: left;
+    height: 200px;
+    width: 198px;
+    line-height: 22px;
+}
+
+.service dt,
+.service .dt
+{
+    font: bold 14px/22px "微软雅黑";
+    margin-bottom: 5px;
+}
+.coverage{
+    float: right;
+    height:165px;
+    width: 200px;
+    margin-right: 20px;
+    background: url(../images/china.png) no-repeat left bottom ;
+}
+.looklook{
+    float: right;
+    margin-top: 5px;
+}
+
+.copyright{
+    padding-top: 18px;
+    text-align: center;
+}
+.copyright p{
+    padding: 2px 0;
+}
+.copyright span{
+    margin: 0 6px;
+}
+.auth{
+    margin: 14px 0;
+}
+/*底部footer结束*/
