@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearbox{
+    clear: both;
+}
+.header{
+    height: 58px;
+    background-color: #191D3A;
+    font-size: 14px;
+}
+
+.center1000{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header .center1000 .logo{
+    float: left;
+    width: 174px;
+    padding-left: 12px;
+    padding-right: 52px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -1000em;
+    line-height: 58px;
+}
+
+.header .center1000 .navs{
+    float: left;
+}
+
+.header .center1000 .navs ul{
+    list-style: none;
+}
+.header .center1000 .navs ul li{
+    float: left;
+    width: 100px;
+    height: 58px;
+    border-left: 1px solid #252947;
+}
+
+.header .center1000 .navs ul li.last{
+    border-right: 1px solid #252947;
+}
+.header .center1000 .navs ul li a{
+    display: block;
+    width: 100px;
+    height: 58px;
+    line-height: 58px;
+    text-decoration: none;
+    text-align: center;
+    color: #818496;
+}
+.header .center1000 .navs ul li a:hover{
+    background-color: #252947;
+    color:#E2E4ED;
+}
+.header .center1000 .navs ul li.active a{
+    background-color: #252947;
+    color:#E2E4ED;
+}
+.header .center1000 .joinus a{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    margin: 12px 0px 12px 48px;
+    color: #FFFFF6;
+    text-decoration: none;
+    background-color: #38B774;
+    border-radius: 3px;
+    text-align: center;
+}
+.header .center1000 .joinusa:hover{
+    background-color: #48C784;
+}
+
+.banner{
+    height: 465px;
+    background: url(../images/banner.jpg) no-repeat center center;
+    position: relative;
+}
+
+.banner .swiper{
+    position: absolute;
+    width: 120px;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.banner .swiper ol{
+    list-style-type: none;
+}
+.banner .swiper ol li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url(../images/yuandian.png);
+    margin-right: 15px;
+    cursor: pointer;
+}
+.banner .swiper ol li.last{
+    margin-right: 0;
+}
+.content{
+    margin-top: 50px;
+    height: 650px;
+    background: url(../images/indexmainbg.jpg) no-repeat center bottom;
+}
+.content .center1000 .video{
+    height: 228px;
+    border-bottom: 1px solid #DBE1E7;
+}
+.content .center1000 .video ul{
+    list-style: none;
+}
+.content .center1000 .video ul li{
+    float: left;
+    width: 218px;
+    margin-right: 43px;
+    text-align: center;
+}
+.content .center1000 .video ul li.last{
+    width: 217px;
+    margin-right: 0;
+}
+
+.content .center1000 .video ul li p img{
+    width: 100%;
+}
+
+.content .center1000 .video ul li h3{
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content .center1000 .video ul li a{
+    color: #38BDBD;
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 10px;
+    background: url(../images/sanjiaoxing.png) no-repeat center right;
+    text-decoration: none;
+}
+
+.content .center1000 .infos{
+    padding-top: 53px;
+}
+
+.content .center1000 .infos .news{
+    float: left;
+    width: 500px;
+    background: url(../images/bynewsbg.jpg) no-repeat center top;
+    padding-top: 110px;
+}
+
+.content .center1000 .infos .news ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.content .center1000 .infos .news ul li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #DBE1E7;
+}
+
+.content .center1000 .infos .news ul li span{
+    font-size: 12px;
+    color: #CAC4CF;
+    padding-right: 20px;
+}
+
+.content .center1000 .infos .news ul li a{
+    font-size: 14px;
+    color: #484965;
+    text-decoration: none;
+}
+.content .center1000 .infos .news ul li a:hover{
+    color:orange;
+}
+
+.content .center1000 .infos .jobs{
+    float: left;
+    width: 500px;
+    height: 314px;
+    background: url(../images/byhrbg3.jpg) no-repeat center top;
+    padding-top: 110px;
+}
+
+.content .center1000 .infos .jobs h4{
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.content .center1000 .infos .jobs ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.content .center1000 .infos .jobs ul li{
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 1px solid #6FDEA3;
+}
+.content .center1000 .infos .jobs ul li a{
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+.content .center1000 .infos .jobs ul li a:hover{
+    color: orange;
+}
+
+.footer {
+    background-color: #191D3A;
+    font-size: 12px;
+    color: #6c6e7e;
+}
+
+.footer p{
+    line-height: 50px;
+    height: 50px;
+}
+.footer p a{
+    color: #6c6e7e;
+    font-size: 12px;
+    text-decoration: none;
+    line-height:50px;
+    height: 50px;
+}
+
+.footer .p a:hover{
+    color: #fff;
+}
+
+.footer .gov-icon{
+    height: 50px;
+    font-size: 12px;
+    float: right;
+    margin-right:200px;
+}
