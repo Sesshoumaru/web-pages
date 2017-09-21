@@ -328,8 +328,26 @@ s, i, em {
 }
 
 .drop-down .dd{
+    margin-top: 2px;
     height: 465px;
     background-color: #C81623;
+}
+
+.drop-down .dd .items{
+    height: 31px;
+    border-left: 1px solid #B61D1D;
+    padding:0 10px ;
+    font:400 14px "micorsoft yehei";
+    line-height: 31px;
+    color: white;
+}
+
+.drop-down .dd .items h3 {
+    float: left;
+}
+
+.drop-down .dd .items span{
+    float: right;
 }
 
 .nav-items{
@@ -360,14 +378,17 @@ s, i, em {
 
 .bike{
     width: 200px;
-    height: 44px;
     float: right;
 }
 
 .bike a{
     display: block;
-    width:200px;
+    height: 44px;
     cursor: pointer;
+}
+
+.bike a img{
+    height: 43px;
 }
 
 /*头部nav结束*/

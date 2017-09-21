@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+.banner604{
+    position: relative;
+}
+
+.banner604 a{
+    position: absolute;
+    height: 604px;
+    top: 12px;
+    left: 0px;
+    width: 100%;
+    background:url(../images/banner.jpg) no-repeat top center;
+}
+
+.main{
+    position: relative;
+}
+
+.slider{
+    float: left;
+    width: 730px;
+    height: 453px;
+    background-color: pink;
+    margin:12px 0 0 220px;
+    position: relative;
+}
+
+.slider ul{
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    margin-left: -66px;
+}
+
+.slider ul li{
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 2px;
+    background-color: #3e3e3e;
+    text-align: center;
+    line-height: 18px;
+    color: #FFF;
+    cursor: pointer;
+}
+.slider ul li.current{
+    background-color: darkred;
+}
+.arrow-left,.arrow-right{
+    position: absolute;
+    width: 24px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    font:600 18px/62px "simsun";
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+}
+.arrow-left{
+    left: 0;
+}
+.arrow-right{
+    right: 0;
+}
+.arrow-left:hover,.arrow-right:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.news{
+    float: right;
+    width:248px;
+    height:451px;
+    border: 1px solid #E4E4E4;
+    margin-top: 12px;
+}
+
+.jd-news{
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4;  /*虚线*/
+}
+.jd-news .dt,.jd-service .dt
+{
+    height: 43px;
+    border-bottom:1px dotted #E8E8E7;
+}
+.jd-news .dt h3,.jd-service .dt h3
+{
+    font:500 16px/43px "microsoft yehei";
+    float: left;
+    padding-left:15px;
+}
+.jd-news .dt a{
+    font: 12px/43px "simsun";
+    float: right;
+    padding-right:15px;
+}
+.jd-news .dd ul{
+    padding:8px 0 0 12px;
+}
+.jd-news .dd li{
+    line-height: 28px;
+}
+.jd-news .dd li span{
+    font-weight:700;
+    margin-right: 5px;
+}
+
+.jd-service{
+    height: 251px;
+    margin-top: -1px;
+    width: 248px;
+    overflow: hidden;
+}
+
+.jd-service ul{
+    width: 252px;
+}
+
+.jd-service li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    border-top:0;
+    float: left;
+    margin:0 0 0 -1px;
+}
+
+.jd-service li a{
+    display: block;
+    width: 62px;
+    height: 70px;
+    padding-top: 42px;
+    text-align: center;
+    position: relative;
+}
+
+.jd-service li a s{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+    background:url(../images/icon_lifeserv.png) no-repeat right top;
+}
+
+.jd-service li.service-icon2 a s{
+    background-position: right -25px;
+}
+
+.jd-service li.service-icon3 a s{
+    background-position: right -50px;
+}
+
+.jd-service li.service-icon4 a s{
+    background-position: right -75px;
+}
+
+.double11 {
+    position: relative;
+}
+
+.night{
+    margin: 10px 0 10px 0;
+}
+.night-right{
+    width: 1000px;
+    height: 160px;
+}
+.night-right ul{
+    width: 500%;
+}
+.night-right li{
+    float: left;
+    margin-right: 1px;
+}
