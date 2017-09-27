@@ -1,0 +1,177 @@
+body{
+    background: url(../images/background.jpg) no-repeat ;
+    background-size: cover;
+    height: 100%;
+}
+
+.header{
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #796763;
+}
+
+.header a{
+    color: #ffffff;
+}
+
+.header li{
+    float: left;
+    margin-right: 19px;
+}
+
+.info{
+    padding: 0 15px;
+}
+
+.weather{
+    color: #ffffff;
+}
+
+.weather-icon{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/sun.png);
+    margin-right: 5px;
+}
+.weather em{
+    margin-right: 4px;
+}
+.air-quality-name{
+    color: #badc00;
+}
+.split{
+    margin-right:10px;
+}
+
+.nav a{
+    font-size: 13px;
+}
+
+.primary a{
+    font-weight:700;
+}
+
+.nav .more{
+    margin-right: 0;
+}
+
+.more a{
+    display: inline-block;
+    width: 80px;
+    font-size: 13px;
+    background-color: #38f;
+}
+
+.more a:hover{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+}
+
+.body{
+    min-height: 600px;
+}
+
+.logo{
+    margin-top:40px;
+}
+
+.logo img{
+    width:270px;
+    height:129px;
+}
+
+.search{
+    width: 641px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.search .input{
+    float: left;
+    position: relative;
+}
+
+.search input{
+    width:480px;
+    height: 20px;
+    padding: 10px 50px 10px 7px ;
+    float: left;
+    border: none;
+}
+.search button{
+    width: 104px;
+    height: 40px;
+    float: left;
+    border: none;
+    font-size: 16px;
+    color: #000;
+}
+.search .camera{
+    position: absolute;
+    height: 16px;
+    width: 18px;
+    background: url(../images/camera_new.png) no-repeat;
+    right: 5px;
+    top:50%;
+    margin-top:-8px;
+    cursor: pointer;
+}
+.search .camera:hover{
+    background-position: 0 -20px;
+}
+
+.footer{
+    color: white;
+    padding:10px;
+}
+
+.footer p{
+    height: 24px;
+    line-height:24px;
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
+}
+.copyright .icp{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+}
+
+.icp-ico{
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    background:url(../images/copy_rignt_24.png) no-repeat;
+    top :4px;
+    right: -10px;
+    position: absolute;
+
+}
+.police a{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+.police a:hover{
+    text-decoration: underline;
+}
+.police-ico{
+    display: inline-block;
+    width: 14px;
+    height:16px;
+    background:url(../images/icon-police.png) no-repeat;
+    margin-right: 10px;
+    top :4px;
+    left: 0;
+    position: absolute;
+}

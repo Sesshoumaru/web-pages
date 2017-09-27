@@ -71,7 +71,9 @@ a {
     text-decoration: none;
 }
 
-
+a:hover {
+    color: #08bf91;
+}
 
 h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
@@ -131,8 +133,9 @@ s, i, em {
 
 .logo a {
     display: block;
-    width: 160px;
+    width: 180px;
     height:60px;
+    line-height: 60px;
 }
 
 .logo a img{
@@ -144,6 +147,7 @@ s, i, em {
     display: inline;
     font-size: 16px;
     margin-top:20px;
+    margin-left:8px;
 }
 .nav li{
     float: left;
@@ -152,11 +156,9 @@ s, i, em {
 .nav a{
     font-size: 14px;
     line-height: 60px;
-    margin: 0 20px;
+    margin: 0 15px;
 }
-.nav a:hover {
-    color: #08bf91;
-}
+
 
 .body{
 }
@@ -177,25 +179,45 @@ s, i, em {
     margin: 15px;
     border: 1px solid #eeeeee;
 }
+.item a{
 
+}
 .item img{
     width: 260px;
     height: 160px;
 }
 
+.item .description{
+    padding: 8px;
+}
+
 .item h3{
-    margin:8px;
     font: 700 14px "微软雅黑" ;
+    margin-right: 20px;
 }
 
-.item p{
-    margin: 8px;
+.items p{
+    margin: 8px 0;
 }
-
-.item span{
-    margin: 8px;
+.tags span{
     padding: 3px 10px;
     color: #fff;
     border-radius: 100px;
-    background-color: #ffae0f;
+    background-color: #08bf91;
+    cursor: pointer;
+}
+
+.tags span i {
+    margin-right: 4px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.footer div{
+    padding: 5px 0;
 }
