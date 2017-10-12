@@ -153,12 +153,15 @@ s, i, em {
     float: left;
 }
 
+.nav li.active a{
+    color: #08bf91;
+}
+
 .nav a{
     font-size: 14px;
     line-height: 60px;
     margin: 0 15px;
 }
-
 
 .body{
 }
