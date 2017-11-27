@@ -34,53 +34,162 @@
     content: "\e920";
 }
 
+.icon-logo::before {
+  content: "\e93e";
+}
+
+.icon-icon::before {
+  content: "\e920";
+}
+
+
 /*--/字体图标--*/
 
 /*--Bootstrap扩展样式--*/
-.btn-weijinsuo-main {
+.btn-main {
     color: #FFFFFF;
     background-color: #E92322;
     border-color: #DB3B43;
 }
 
-.btn-weijinsuo-main:hover,
-.btn-weijinsuo-main:focus,
-.btn-weijinsuo-main:active,
-.btn-weijinsuo-main.active,
-.open .dropdown-toggle.btn-weijinsuo-main {
+.btn-main:hover,
+.btn-main:focus,
+.btn-main:active,
+.btn-main.active,
+.open .dropdown-toggle.btn-main {
     color: #FFFFFF;
     background-color: #E92322;
     border-color: #DB3B43;
 }
 
-.btn-weijinsuo-main:active,
-.btn-weijinsuo-main.active,
-.open .dropdown-toggle.btn-weijinsuo-main {
+.btn-main:active,
+.btn-main.active,
+.open .dropdown-toggle.btn-main {
     background-image: none;
 }
 
-.btn-weijinsuo-main.disabled,
-.btn-weijinsuo-main[disabled],
-fieldset[disabled] .btn-weijinsuo-main,
-.btn-weijinsuo-main.disabled:hover,
-.btn-weijinsuo-main[disabled]:hover,
-fieldset[disabled] .btn-weijinsuo-main:hover,
-.btn-weijinsuo-main.disabled:focus,
-.btn-weijinsuo-main[disabled]:focus,
-fieldset[disabled] .btn-weijinsuo-main:focus,
-.btn-weijinsuo-main.disabled:active,
-.btn-weijinsuo-main[disabled]:active,
-fieldset[disabled] .btn-weijinsuo-main:active,
-.btn-weijinsuo-main.disabled.active,
-.btn-weijinsuo-main[disabled].active,
-fieldset[disabled] .btn-weijinsuo-main.active {
+.btn-main.disabled,
+.btn-main[disabled],
+fieldset[disabled] .btn-main,
+.btn-main.disabled:hover,
+.btn-main[disabled]:hover,
+fieldset[disabled] .btn-main:hover,
+.btn-main.disabled:focus,
+.btn-main[disabled]:focus,
+fieldset[disabled] .btn-main:focus,
+.btn-main.disabled:active,
+.btn-main[disabled]:active,
+fieldset[disabled] .btn-main:active,
+.btn-main.disabled.active,
+.btn-main[disabled].active,
+fieldset[disabled] .btn-main.active {
     background-color: #E92322;
     border-color: #DB3B43;
 }
 
-.btn-weijinsuo-main .badge {
+.btn-main .badge {
     color: #E92322;
     background-color: #FFFFFF;
+}
+
+
+.navbar-main {
+    background-color: #fff;
+    border-color: #f5f5f5;
+}
+.navbar-main .navbar-brand {
+    color: #777;
+}
+.navbar-main .navbar-brand:hover,
+.navbar-main .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-main .navbar-text {
+    color: #777;
+}
+.navbar-main .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-main .navbar-nav > li > a:hover,
+.navbar-main .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid #E92322;
+}
+.navbar-main .navbar-nav > .active > a,
+.navbar-main .navbar-nav > .active > a:hover,
+.navbar-main .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
+    border-bottom: 2px solid #E92322;
+}
+.navbar-main .navbar-nav > .disabled > a,
+.navbar-main .navbar-nav > .disabled > a:hover,
+.navbar-main .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-main .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-main .navbar-toggle:hover,
+.navbar-main .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-main .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-main .navbar-collapse,
+.navbar-main .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-main .navbar-nav > .open > a,
+.navbar-main .navbar-nav > .open > a:hover,
+.navbar-main .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-main .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-main .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-main .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-main .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-main .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-main .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-main .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-main .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-main .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-main .navbar-link {
+    color: #777;
+}
+.navbar-main .navbar-link:hover {
+    color: #333;
+}
+.navbar-main .btn-link {
+    color: #777;
+}
+.navbar-main .btn-link:hover,
+.navbar-main .btn-link:focus {
+    color: #333;
+}
+.navbar-main .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-main .btn-link:hover,
+.navbar-main .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-main .btn-link:focus {
+    color: #ccc;
 }
 
 /*--/Bootstrap扩展样式--*/
@@ -128,14 +237,44 @@ body {
     left: 50%;
     margin-left: -60px;
     top: 30px;
+    z-index: 1001;
 }
 
 #header .mobie-link:hover > img {
     display: block;
 }
 
-#header .btn-weijinsuo-main{
+#header .btn-main{
     color: #fff;
+}
+
+#header .navbar-main .navbar-brand{
+    height: 80px;
+}
+
+#header .navbar-main li > a{
+    height: 80px;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+#header .icon-icon{
+    color: #E92322;
+    font-size: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header .icon-logo{
+    color: #333;
+    font-size: 32px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header .navbar-toggle{
+    margin-top: 23px;
+    margin-bottom: 23px;
 }
 
 /*--/顶部区域样式--*/
