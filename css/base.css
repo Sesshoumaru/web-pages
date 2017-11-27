@@ -133,14 +133,14 @@ s, i, em {
 
 .logo a {
     display: block;
-    width: 180px;
-    height:60px;
+    width: 200px;
+    height: 60px;
     line-height: 60px;
 }
 
 .logo a img{
-    width: 70px;
-    height:60px;
+    width: 32px;
+    height: 32px;
 }
 
 .logo a h3{

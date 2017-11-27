@@ -1,0 +1,141 @@
+/*--字体图标--*/
+
+@font-face {
+    font-family: "weijinsuo";
+    src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'), url('../font/MiFie-Web-Font.svg') format('svg'), url('../font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.woff') format('woff');
+}
+
+[class^='icon-'], [class*=' icon-'] {
+    font-family: 'weijinsuo' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon-mobilephone::before {
+    content: "\e908";
+    font-size: 13px;
+}
+
+.icon-telephone::before {
+    content: "\e909";
+    font-size: 15px;
+}
+
+.icon-logo::before {
+    content: "\e93e";
+}
+
+.icon-icon::before {
+    content: "\e920";
+}
+
+/*--/字体图标--*/
+
+/*--Bootstrap扩展样式--*/
+.btn-weijinsuo-main {
+    color: #FFFFFF;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-weijinsuo-main:hover,
+.btn-weijinsuo-main:focus,
+.btn-weijinsuo-main:active,
+.btn-weijinsuo-main.active,
+.open .dropdown-toggle.btn-weijinsuo-main {
+    color: #FFFFFF;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-weijinsuo-main:active,
+.btn-weijinsuo-main.active,
+.open .dropdown-toggle.btn-weijinsuo-main {
+    background-image: none;
+}
+
+.btn-weijinsuo-main.disabled,
+.btn-weijinsuo-main[disabled],
+fieldset[disabled] .btn-weijinsuo-main,
+.btn-weijinsuo-main.disabled:hover,
+.btn-weijinsuo-main[disabled]:hover,
+fieldset[disabled] .btn-weijinsuo-main:hover,
+.btn-weijinsuo-main.disabled:focus,
+.btn-weijinsuo-main[disabled]:focus,
+fieldset[disabled] .btn-weijinsuo-main:focus,
+.btn-weijinsuo-main.disabled:active,
+.btn-weijinsuo-main[disabled]:active,
+fieldset[disabled] .btn-weijinsuo-main:active,
+.btn-weijinsuo-main.disabled.active,
+.btn-weijinsuo-main[disabled].active,
+fieldset[disabled] .btn-weijinsuo-main.active {
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-weijinsuo-main .badge {
+    color: #E92322;
+    background-color: #FFFFFF;
+}
+
+/*--/Bootstrap扩展样式--*/
+
+/*--公共样式--*/
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+/*--/公共样式--*/
+
+/*--顶部区域样式--*/
+
+#header {
+    height: 200px;
+}
+
+#header > .top-bar {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#header > .top-bar > .container > .row > div {
+    height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+#header > .top-bar > .container > .row > div + div {
+    border-left: 1px solid #c0c0c0;
+}
+
+#header a {
+    color: #888;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header .mobie-link > img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 30px;
+}
+
+#header .mobie-link:hover > img {
+    display: block;
+}
+
+#header .btn-weijinsuo-main{
+    color: #fff;
+}
+
+/*--/顶部区域样式--*/
