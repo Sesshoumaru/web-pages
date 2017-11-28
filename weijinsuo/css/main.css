@@ -204,7 +204,6 @@ body {
 /*--顶部区域样式--*/
 
 #header {
-    height: 200px;
 }
 
 #header > .top-bar {
@@ -278,3 +277,19 @@ body {
 }
 
 /*--/顶部区域样式--*/
+
+/*--图片轮播样式--*/
+
+#main_ad{
+
+}
+
+#main_ad .carousel-inner .item{
+    height: 410px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*--/图片轮播样式--*/
