@@ -46,6 +46,14 @@
     content: "\e907";
 }
 
+.icon-uniE906:before {
+    content: "\e906";
+}
+
+.icon-uniE905:before {
+    content: "\e905";
+}
+
 .icon-uniE904:before {
     content: "\e904";
 }
@@ -349,8 +357,8 @@ body {
 /*--网站特色--*/
 
 #special{
-    padding: 40px 0;
-    border-bottom: 1px solid #f5f5f5;
+    padding: 40px 0 20px;
+    border-bottom: 1px solid #c0c0c0;
 }
 
 #special .media{
@@ -372,8 +380,39 @@ body {
     padding: 10px 0;
 }
 
-
-
-
 /*--/网站特色--*/
 
+
+/*--立即预约--*/
+
+#booking{
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#booking p {
+    padding: 10px 0;
+    /*margin-bottom: 0;*/
+    font-size: 16px;
+}
+
+#booking .pull-left > span,#booking .pull-left > a{
+    color: #E92322;
+}
+
+#booking .pull-left > a {
+    border-bottom: 1px dashed #E92322;
+}
+
+#booking .pull-left > a:hover{
+    text-decoration: none;
+}
+
+#booking .pull-right > a {
+   color: #333;
+}
+
+#booking .pull-right > a:hover{
+    text-decoration: none;
+}
+
+/*--/立即预约--*/
