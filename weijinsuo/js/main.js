@@ -20,5 +20,7 @@ $(function () {
     }
 
     $(window).on('resize', resize).trigger('resize');
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
 

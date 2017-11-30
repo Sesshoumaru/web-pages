@@ -311,9 +311,27 @@ fieldset[disabled] .navbar-main .btn-link:focus {
     border-top-color: #ddd;
 }
 
-.panel-product > .panel-heading .badge {
-    color: #f5f5f5;
-    background-color: #333;
+.panel-product > .panel-heading .tooltips{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 20px;
+}
+
+.panel-product > .panel-heading .tooltips .badge{
+    background-color: transparent;
+    border-radius: 0;
+    padding: 3px;
+}
+
+.panel-product > .panel-heading .tooltips .badge-1 {
+    color: #E92322;
+    border: 1px solid #E92322;
+}
+
+.panel-product > .panel-heading .tooltips .badge-2 {
+    color: #399;
+    border: 1px solid #399;
 }
 
 .panel-product.panel-disabled {
