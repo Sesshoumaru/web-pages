@@ -74,6 +74,30 @@
     content: "\e900";
 }
 
+.icon-news01:before {
+    content: "\e90e";
+    font-size: 28px;
+    color: #EAEAEA;
+}
+
+.icon-news02:before {
+    content: "\e90f";
+    font-size: 28px;
+    color: #EAEAEA;
+}
+
+.icon-news03:before {
+    content: "\e910";
+    font-size: 28px;
+    color: #EAEAEA;
+}
+
+.icon-news04:before {
+    content: "\e911";
+    font-size: 28px;
+    color: #EAEAEA;
+}
+
 /*--/字体图标--*/
 
 /*--Bootstrap扩展样式--*/
@@ -311,14 +335,14 @@ fieldset[disabled] .navbar-main .btn-link:focus {
     border-top-color: #ddd;
 }
 
-.panel-product > .panel-heading .tooltips{
+.panel-product > .panel-heading .tooltips {
     position: absolute;
     width: 100%;
     text-align: center;
     top: 20px;
 }
 
-.panel-product > .panel-heading .tooltips .badge{
+.panel-product > .panel-heading .tooltips .badge {
     background-color: transparent;
     border-radius: 0;
     padding: 3px;
@@ -338,7 +362,6 @@ fieldset[disabled] .navbar-main .btn-link:focus {
     background-color: #e0e0e0;
 }
 
-
 .panel-product.panel-experience {
     background-color: #E92322;
 }
@@ -347,7 +370,7 @@ fieldset[disabled] .navbar-main .btn-link:focus {
     color: #fff;
 }
 
-.panel-product.panel-experience::before{
+.panel-product.panel-experience::before {
     font-family: 'weijinsuo' !important;
     content: "\e915";
     color: #fff;
@@ -571,3 +594,77 @@ body {
 }
 
 /*--/产品介绍--*/
+
+/*--新闻列表--*/
+
+#news {
+    padding: 40px 0;
+}
+
+#news .news-title {
+    font-size: 18px;
+    font-weight:400;
+    padding: 10px;
+    border-bottom: 1px dashed #c0c0c0;
+    position: relative;
+}
+
+#news .news-title::before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px dashed #c0c0c0;
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+}
+
+#news .nav-pills{
+    text-align: center;
+}
+
+#news .nav-pills .line{
+    height: 100%;
+    border-left: 1px dashed #c0c0c0;
+    position: absolute;
+    top: 0;
+    left: 55%;
+    z-index: -1;
+}
+
+#news .nav-pills li a{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+#news .nav-pills li.active a,#news .nav-pills a:hover{
+    background-color: #E92322;
+}
+
+#news .tab-content ul {
+    list-style: none;
+}
+
+#news .tab-content ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+#news .tab-content ul li a{
+    color: #000;
+}
+
+#news .tab-content ul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*--/新闻列表--*/

@@ -38,5 +38,8 @@ $(function () {
         $ul_mav_tabs.width(width).parent().css('overflow-x', 'scroll');
     }
 
+    $("#news .nav-pills a").on('click',function () {
+        $('.news-title').text($(this).data('title'));
+    })
 });
 
