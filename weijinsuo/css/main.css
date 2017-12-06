@@ -98,6 +98,79 @@
     color: #EAEAEA;
 }
 
+
+.icon-uniE930:hover {
+    color: #df3232;
+}
+
+.icon-uniE930:before {
+    content: "\e946";
+}
+
+.icon-uniE92F:hover {
+    color: #e8380d;
+}
+
+.icon-uniE92F:before {
+    content: "\e92f";
+}
+
+.icon-uniE92E:hover {
+    color: #ed6f00;
+}
+
+.icon-uniE92E:before {
+    content: "\e92e";
+}
+
+.icon-uniE92A:hover {
+    color: #159f69;
+}
+
+.icon-uniE92A:before {
+    content: "\e92a";
+}
+
+.icon-uniE929:hover {
+    color: #07569e;
+}
+
+.icon-uniE929:before {
+    content: "\e929";
+}
+
+.icon-uniE931:hover {
+    color: #004098;
+}
+
+.icon-uniE931:before {
+    content: "\e931";
+}
+
+.icon-uniE92C:hover {
+    color: #d32019;
+}
+
+.icon-uniE92C:before {
+    content: "\e92c";
+}
+
+.icon-uniE92B:hover {
+    color: #3eac4a;
+}
+
+.icon-uniE92B:before {
+    content: "\e92b";
+}
+
+.icon-uniE92D:hover {
+    color: #2bb289;
+}
+
+.icon-uniE92D:before {
+    content: "\e92d";
+}
+
 /*--/字体图标--*/
 
 /*--Bootstrap扩展样式--*/
@@ -666,5 +739,42 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 756px) {
+    .nav-pills li{
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
 
 /*--/新闻列表--*/
+
+
+/*--合作伙伴--*/
+
+#partner{
+    padding: 40px 0;
+}
+
+#partner ul{
+    list-style: none;
+    text-align: center;
+}
+
+#partner ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#partner ul li a{
+    font-size: 50px;
+    width: 80px;
+    color: #e0e0e0;
+}
+
+#partner ul li a:hover{
+    text-decoration: none;
+    color: #E92322;
+}
+
+/*--/合作伙伴--*/
